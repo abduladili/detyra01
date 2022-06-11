@@ -184,7 +184,7 @@ div.desc {
                 <img src="portfolio/PRIMALCPD.jpg" alt="Primal CPD" title="Primal CPD" width="200" />
                 <img src="portfolio/TermaS.jpg" alt="TermaS" title="TermaS" width="200" />
                 <br /><br />
-                <p>Photohgraphy <strong>Techmoque:</strong><em>Adobe Photoshop, Ilustrator & CorelDraw</em></p>
+                <p>Photohgraphy <strong>Techmoque:</strong><em>Adobe Photoshop</em></p>
                 <div class="gallery">
                     <a target="_blank" href="portfolio/ph1.jpg">
                       <img src="portfolio/ph1.jpg" alt="Photohgraphy" title="Mali Karanikolle - Tetove" height="340"/>
@@ -215,26 +215,20 @@ div.desc {
                       
             <dt>Contact Form </dt>
             <dd>
-              <form method="GET">
-                <fieldset>
-                    <legend>Personal data</legend>
-                    <input type="text" placeholder="Enter your name" />
-                    <br>
-                    <input type="radio" name="gender" id="Mr" checked />
-                    <label for="Mrs">Mr</label>
-                    <input type="radio" name="gender" id="Mrs" />
-                    <label for="Mrs">Mrs</label>
-                    <br>
-                    <input type="tel" placeholder="Phone number" />
-                    <br>
-                    <input type="email" required placeholder="john@smith.com" />
-                    <br>
-                    <textarea required cols="30" rows="5" style="resize: none" placeholder="Shkruaj porosine tuaj"></textarea>
-                    <br>
-                </fieldset>
-                <input type="submit" value="Send" /> 
-                <input type="reset" value="Clear" />
-                </form>
+              <!--Contact Form-->
+	          <form method="GET">
+		          *Name:  <input type="text" required name="name"><br>
+		          *Email: <input type="email" required name="email"><br>
+		      		Gender:
+		          <input type="radio" name="Gender" value="Male" checked> Male
+		          <input type="radio" name="Gender" value="Female"> Female
+		          <input type="radio" name="Gender" value="Other"> Other<br>
+		          Subject: <br>
+		          <textarea required cols="60" rows="8" style="resize: none"></textarea><br>
+				      <input type="submit" value="Send">
+		          <input type="reset" name="reset">
+	          </form>
+
             </dd>
         </dl>
         <div class="clear"></div>
